@@ -1,0 +1,88 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]1" date="1728681449272" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/libssl.3.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libssl.3.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/bin/python3.12" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/python3.12" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pip/_vendor/distlib/t32.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/t32.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pip/_vendor/distlib/w32.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/w32.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pip/_vendor/distlib/t64-arm.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/t64-arm.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/libcrypto.3.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libcrypto.3.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pip/_vendor/distlib/t64.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/t64.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pyodbc.cpython-312-darwin.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/pyodbc.cpython-312-darwin.so" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pip/_vendor/distlib/w64-arm.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/w64-arm.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/libfido2.1.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libfido2.1.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/authentication_oci_client.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/authentication_oci_client.so" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/authentication_ldap_sasl_client.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/authentication_ldap_sasl_client.so" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/libfido2.1.13.0.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libfido2.1.13.0.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/authentication_webauthn_client.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/authentication_webauthn_client.so" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/libcrypto.3.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libcrypto.31.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/lib/libcrypto.3.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libcrypto.32.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/libfido2.1.13.0.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libfido2.1.13.01.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/_mysql_connector.cpython-312-darwin.so" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/_mysql_connector.cpython-312-darwin.so" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/libssl.3.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libssl.31.dylib" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/pip/_vendor/distlib/w64.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/w64.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value=".venv/lib/python3.12/site-packages/mysql/vendor/plugin/libfido2.1.dylib" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/libfido2.11.dylib" />
+  </binary>
+</changelist>
