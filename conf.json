@@ -1,0 +1,17 @@
+{
+  "tables": [
+    {
+      "source_table": "posv3",
+      "columns": {
+        "ID": "idt",
+        "testcolumn15": "tb1",
+        "testcolumn16": "tb2",
+        "testcolumn17": "tb3"
+      },
+      "id_column": "ID",
+      "table_as_is": 1,
+      "column_as_is": 0,
+      "target_id": "idt"
+    }
+  ]
+}
