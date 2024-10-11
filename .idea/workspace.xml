@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="458deefb-0a37-44ed-aea0-8e1c95e5e545" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/m.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_10_2024,_00_44_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_10_2024,_00_44_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_10_2024__00_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_10_2024__00_44__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wf-dbsync.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wf-dbsync.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate_this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/pip-3.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/pip3.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/python3.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/wheel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/wheel-3.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/wheel3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/wheel3.11" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/_distutils_hack/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/_distutils_hack/override.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/_mysql_connector.cpython-311-darwin.so" beforeDir="false" />
@@ -908,7 +937,11 @@
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/wheel/vendored/packaging/version.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/wheel/vendored/vendor.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/wheel/wheelfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -930,6 +963,9 @@
     "accountId": "49fdd293-b27a-48de-8646-959ecfc514d3"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -941,12 +977,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Debug",
+    "Python.main.py.executor": "Debug",
     "Python.python3.11.executor": "Run",
     "Python.wf.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/yb-flo/Desktop/flo/apps/wf-dbsync"
+    "last_opened_file_path": "/Users/yb-flo/Desktop/flo/apps/wf-dbsync",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -956,31 +996,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="wf-dbsync" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (wf-dbsync)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -1006,7 +1021,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728671111428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1728671804969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728671804969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1728671813451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728671813451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

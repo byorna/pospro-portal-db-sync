@@ -10,7 +10,7 @@
       },
       "id_column": "ID",
       "table_as_is": 1,
-      "column_as_is": 0,
+      "column_as_is": 1,
       "target_id": "idt"
     }
   ]

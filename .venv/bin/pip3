@@ -1,4 +1,4 @@
-#!/Users/y.b/Desktop/ybCodes/requestHandler/venv/bin/python
+#!/Users/yb-flo/Desktop/flo/apps/wf-dbsync/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
