@@ -99,11 +99,11 @@ All customization is done via a configuration file named conf.json. Below is an 
 
 ## Key Options in conf.json:
    -   **source_table**: The table in the MSSQL database to transfer.
-   -   **target_table**: The table name in MySQL (can be omitted if table_as_is = 1).
-   -   **columns**: A mapping of columns between MSSQL and MySQL. Leave this out if column_as_is = 1.
-   -   **conditions**: Optional WHERE clause for filtering rows during transfer.
-   -   **id_column**: The primary key column for identifying rows. (SOURCE)
-   -   **target_id**: The primary key column. (TARGET)
+   -   **target_table**: The table name in MySQL (Leave this out if table_as_is = 1)
+   -   **columns**: A mapping of columns between MSSQL and MySQL. (Leave this out if column_as_is = 1)
+   -   **conditions**: [Optional] WHERE clause for filtering rows during transfer.
+   -   **id_column**: The primary key column for identifying rows on source.
+   -   **target_id**: The primary key column on target. (Leave this out if column_as_is = 1)
    -   **table_as_is**: Set to 1 to transfer the table without renaming it.
    -   **column_as_is**: Set to 1 to transfer the columns without renaming them.
    -   **frequency**: The frequency (in seconds) for the continuous synchronization process.
