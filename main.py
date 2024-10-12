@@ -30,7 +30,8 @@ def create_mssql_pool(pool_size=5):
     pool = Queue(maxsize=pool_size)
     for _ in range(pool_size):
         conn = pyodbc.connect(
-            f"DRIVER={{/opt/homebrew/lib/libmsodbcsql.17.dylib}};"
+            """f"DRIVER={{/opt/homebrew/lib/libmsodbcsql.17.dylib}};"""
+            f"DRIVER={{ODBC Driver 17 for SQL Server}};"
             f"SERVER={os.getenv('MSSQL_SERVER')};"
             f"DATABASE={os.getenv('MSSQL_DB')};"
             f"UID={os.getenv('MSSQL_USER')};"
