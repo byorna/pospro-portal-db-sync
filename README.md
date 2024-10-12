@@ -109,6 +109,19 @@ All customization is done via a configuration file named conf.json. Below is an 
    -   **frequency**: The frequency (in seconds) for the continuous synchronization process.
 
 
+## Requirements
+   -   **Python 3.x**
+   - **MSSQL ODBC Driver (`msodbcsql17`)**
+   - **`unixODBC` development libraries (`unixodbc-dev`)**
+   -   **Libraries:** pyodbc, mysql-connector-python, dotenv, json, time, logging
+
+
+## Installation 
+Before running the project, you can use the `setup.sh` script to install both system dependencies and Python packages. Run the following command:
+```bash
+bash setup.sh
+```
+
 ## Running the Application
 
 1- Configure the conf.json file according to your requirements.
@@ -121,20 +134,5 @@ All customization is done via a configuration file named conf.json. Below is an 
 python main.py
 ```
 The application will perform the initial transfer and continue syncing data based on the defined frequency.
-
-## Requirements
-   -   **Python 3.x**
-   -   **Libraries:** pyodbc, mysql-connector-python, dotenv, json, time, logging
-
-Install dependencies via pip:
-```
-pip install -r requirements.txt
-```
-
-
-
-
-
-
 
 
