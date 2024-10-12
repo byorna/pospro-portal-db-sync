@@ -1,5 +1,4 @@
 import pyodbc
-import mysql.connector
 from mysql.connector import pooling
 from dotenv import load_dotenv
 import os
@@ -11,7 +10,6 @@ import logging
 from queue import Queue
 import datetime
 
-# Load environment variables from .env file
 load_dotenv()
 
 # Logging configuration
