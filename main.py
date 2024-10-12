@@ -426,9 +426,12 @@ if __name__ == "__main__":
         logging.info("dbsync service started.")
         mssql_pool = create_mssql_pool()
         mysql_pool = create_mysql_pool()
+        sync_config = load_sync_config('conf.json')
+        frequency = sync_config['frequency']
+
         while True:
             sync('conf.json', mssql_pool, mysql_pool)
-            time.sleep(1)
+            time.sleep(frequency)
 
     except Exception as e:
         logging.error(f"Hata: {str(e)}")

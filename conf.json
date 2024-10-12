@@ -1,4 +1,5 @@
 {
+  "frequency": 1,
   "tables": [
     {
       "source_table": "posv3",
