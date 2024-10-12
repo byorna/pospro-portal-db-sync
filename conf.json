@@ -8,10 +8,18 @@
         "testcolumn16": "tb2",
         "testcolumn17": "tb3"
       },
+      "conditions": "ID > 3 AND testcolumn1 = '5'",
       "id_column": "ID",
       "table_as_is": 1,
-      "column_as_is": 1,
+      "column_as_is": 0,
       "target_id": "idt"
+    },
+
+    {
+      "source_table": "posv4",
+      "id_column": "ID",
+      "table_as_is": 1,
+      "column_as_is": 1
     }
   ]
 }

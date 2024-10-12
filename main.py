@@ -211,7 +211,9 @@ def filter_comparable_columns(cursor_source, source_table, columns):
 
     return comparable_columns
 
-def sync_data(cursor_source, cursor_target, source_table, target_table, columns, id_column, table_as_is, column_as_is, target_id=None):
+
+def sync_data(cursor_source, cursor_target, source_table, target_table, columns, id_column, table_as_is, column_as_is,
+              target_id=None, conditions=None):
     logging.debug(f"Starting data synchronization between {source_table} and {target_table}.")
 
     # If table_as_is = 1, align target_table with source_table
@@ -228,8 +230,15 @@ def sync_data(cursor_source, cursor_target, source_table, target_table, columns,
             columns[id_column] = target_id
 
     logging.debug(f"Fetching data from {source_table}.")
-    # Fetch data from MSSQL
+
+    # Construct the base query for fetching data from MSSQL
     source_query = f"SELECT {id_column} FROM {source_table}"
+
+    # If conditions are provided, add them to the query
+    if conditions:
+        source_query += f" WHERE {conditions}"
+
+    logging.debug(f"Source query with conditions: {source_query}")
     cursor_source.execute(source_query)
     source_data = cursor_source.fetchall()
     source_ids = set([row[0] for row in source_data])  # Get IDs from source
@@ -257,6 +266,11 @@ def sync_data(cursor_source, cursor_target, source_table, target_table, columns,
     logging.debug(f"Fetching comparable data from {source_table}.")
     # Fetch data from MSSQL excluding non-comparable columns
     source_query = f"SELECT {id_column}, {', '.join([col for col in comparable_columns.keys() if col != id_column])} FROM {source_table}"
+
+    if conditions:
+        source_query += f" WHERE {conditions}"
+
+    logging.debug(f"Source data query: {source_query}")
     cursor_source.execute(source_query)
     source_data = cursor_source.fetchall()
 
@@ -296,8 +310,11 @@ def sync_data(cursor_source, cursor_target, source_table, target_table, columns,
             values_list = ', '.join(
                 [
                     f"'{binascii.hexlify(row_data[col]).decode()}'" if isinstance(row_data[col], bytes) else
-                    f"'{row_data[col].strftime('%Y-%m-%d %H:%M:%S.%f')}'" if isinstance(row_data[col], datetime.datetime) else
-                    f"'{row_data[col].strftime('%Y-%m-%d')}'" if isinstance(row_data[col], datetime.date) and not isinstance(row_data[col], datetime.datetime) else
+                    f"'{row_data[col].strftime('%Y-%m-%d %H:%M:%S.%f')}'" if isinstance(row_data[col],
+                                                                                        datetime.datetime) else
+                    f"'{row_data[col].strftime('%Y-%m-%d')}'" if isinstance(row_data[col],
+                                                                            datetime.date) and not isinstance(
+                        row_data[col], datetime.datetime) else
                     f"'{row_data[col].strftime('%H:%M:%S.%f')}'" if isinstance(row_data[col], datetime.time) else
                     f"'{row_data[col]}'" if isinstance(row_data[col], str) else
                     str(row_data[col]) if isinstance(row_data[col], (int, float)) else
@@ -327,6 +344,9 @@ def sync(json_file, mssql_pool, mysql_pool):
         column_as_is = table.get('column_as_is', 0)
         target_id = table.get('target_id', None)
 
+        # Check if conditions are present in the JSON
+        conditions = table.get('conditions', None)  # Get conditions if they exist
+
         if table_as_is == 1:
             target_table = source_table
         else:
@@ -344,9 +364,12 @@ def sync(json_file, mssql_pool, mysql_pool):
 
         id_column = table['id_column']
 
-        check_and_create_columns(cursor_mssql, cursor_mysql, source_table, target_table, columns, table_as_is, column_as_is, target_id)
+        check_and_create_columns(cursor_mssql, cursor_mysql, source_table, target_table, columns, table_as_is,
+                                 column_as_is, target_id)
 
-        sync_data(cursor_mssql, cursor_mysql, source_table, target_table, columns, id_column, table_as_is, column_as_is, target_id=target_id)
+        # Pass the conditions to sync_data if they exist
+        sync_data(cursor_mssql, cursor_mysql, source_table, target_table, columns, id_column, table_as_is, column_as_is,
+                  target_id=target_id, conditions=conditions)
 
     conn_mssql.commit()
     conn_mysql.commit()

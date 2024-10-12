@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="458deefb-0a37-44ed-aea0-8e1c95e5e545" name="Changes" comment="Initial Commit" />
+    <list default="true" id="458deefb-0a37-44ed-aea0-8e1c95e5e545" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/m.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wf-dbsync.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wf-dbsync.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/pip3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.m.executor": "Run",
     "Python.main.executor": "Debug",
     "Python.main.py.executor": "Debug",
     "Python.python3.11.executor": "Run",
@@ -61,6 +78,31 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="m" type="PythonConfigurationType" factoryName="Python">
+      <module name="wf-dbsync" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (wf-dbsync)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -126,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728682233054</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1728682350940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728682350940</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
