@@ -1,26 +1,91 @@
 {
-  "frequency": 1,
+  "frequency": 30,
   "tables": [
     {
-      "source_table": "posv3",
+      "source_table": "POS",
+      "source_schema": "GENIUS3",
       "columns": {
-        "ID": "idt",
-        "testcolumn15": "tb1",
-        "testcolumn16": "tb2",
-        "testcolumn17": "tb3"
+        "ID": "id",
+        "DESCRIPTION": "name",
+        "FK_STORE": "store_id",
+        "NUM": "num",
+        "CREATE_DATE": "created_at",
+        "MODIFY_DATE": "modified_at"
       },
-      "conditions": "ID > 3 AND testcolumn1 = '5'",
       "id_column": "ID",
-      "table_as_is": 1,
+      "table_as_is": 0,
       "column_as_is": 0,
-      "target_id": "idt"
+      "target_table": "st_pos",
+      "target_id": "id"
     },
-
     {
-      "source_table": "posv4",
+      "source_table": "STORE",
+      "source_schema": "GENIUS3",
+      "columns": {
+        "ID": "id",
+        "DESCRIPTION": "name",
+        "NUM": "code",
+        "CREATE_DATE": "created_at",
+        "MODIFY_DATE": "modified_at"
+      },
       "id_column": "ID",
-      "table_as_is": 1,
-      "column_as_is": 1
+      "table_as_is": 0,
+      "column_as_is": 0,
+      "target_table": "st_store",
+      "target_id": "id"
+    },
+    {
+      "source_table": "CAMPAIGN",
+      "source_schema": "GENIUS3",
+      "columns": {
+        "ID": "id",
+        "DESCRIPTION": "name",
+        "CODE": "code",
+        "CREATE_DATE": "created_at",
+        "MODIFY_DATE": "modified_at"
+      },
+      "id_column": "ID",
+      "table_as_is": 0,
+      "column_as_is": 0,
+      "target_table": "st_popup_campaign",
+      "target_id": "id"
+    },
+    {
+      "source_table": "FLO_ENVANTER",
+      "source_schema": "GENIUS3",
+      "columns": {
+        "PosID": "id",
+        "DonanimIP": "ip_address"
+      },
+      "conditions": "DonanimTipi = 0", 
+      "id_column": "PosID",
+      "table_as_is": 0,
+      "column_as_is": 0,
+      "target_table": "st_pos",
+      "target_id": "id"
+    },
+    {
+      "source_table": "FLO_ENVANTER",
+      "source_schema": "GENIUS3",
+      "columns": {
+        "MagID": "id",
+        "DonanimIP": "ip_address"
+      },
+      "conditions": "DonanimTipi = 1", 
+      "id_column": "MagID",
+      "table_as_is": 0,
+      "column_as_is": 0,
+      "target_table": "st_store",
+      "target_id": "id"
     }
   ]
 }
+
+
+
+
+
+
+
+
+
