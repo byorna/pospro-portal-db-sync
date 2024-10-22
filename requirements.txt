@@ -1,4 +1,7 @@
-pyodbc==5.1.0
-mysql-connector-python==8.1.0
-python-dotenv==1.0.0
-binascii
+wheel==0.41.2
+setuptools==68.2.0
+pip==23.2.1
+SQLAlchemy==2.0.20
+mysqlclient==2.1.1
+python-dotenv==1.0.1
+pyodbc==4.0.35
